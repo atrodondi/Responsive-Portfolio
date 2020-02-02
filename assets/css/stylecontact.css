@@ -1,0 +1,17 @@
+#submit {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  padding: 8px;
+  margin: 16px 0px 0px 0px;
+  display: block;
+}
+
+#contactform {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+.name,
+.email {
+  width: 100%;
+}
