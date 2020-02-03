@@ -174,4 +174,11 @@ footer {
     margin: 70px 10px;
     padding: 20px 30px;
   }
+
+  #self {
+
+    float: none;
+    height: 200px;
+  width: 369.87px;
+  }
 }
