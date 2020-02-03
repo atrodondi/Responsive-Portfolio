@@ -54,7 +54,6 @@ li a {
   margin: auto;
   padding: 19px 0;
   overflow: hidden;
-  background-color: #ffffff;
 }
 
 body {
@@ -158,6 +157,7 @@ footer {
   #navbardiv {
     margin: 2px 0px 0px 0px;
     width: 640px;
+    height: 60px;
     background-color: #ffffff;
   }
 
@@ -178,7 +178,7 @@ footer {
 
   #self {
     float: none;
-    height: 200px;
-    width: 369.87px;
+    height: 294px;
+    width: 537.87px;
   }
 }
