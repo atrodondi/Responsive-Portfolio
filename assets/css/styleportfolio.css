@@ -55,25 +55,25 @@ footer {
 }
 
 @media (max-width: 640px) {
- 
- #proj1,
-#proj2,
-#proj3
- {width: 502px;
+  #proj1,
+  #proj2,
+  #proj3 {
+    width: 502px;
+  }
+
+  .project {
+    width: 530px;
+  }
+
+  .projpic {
+    width: 100%;
+    max-width: 530px;
+  }
+
+  #proj4,
+  #proj5,
+  #jax,
+  #slug {
+    display: none;
+  }
 }
-
-.project {
-  width: 530px;
-}
-
-.projpic {
-  width: 100%;
-  max-width: 530px;
-}
-
-#proj4, #proj5  {display: none;}
-
-
-}
-
-

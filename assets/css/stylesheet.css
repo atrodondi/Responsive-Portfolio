@@ -117,35 +117,33 @@ footer {
   position: relative;
 }
 
-
-@media  (max-width: 980px) {
-
+@media (max-width: 980px) {
   .content {
     width: 400px;
-    margin: 50px; }
+    margin: 50px;
+  }
 
-    #topname {
-      margin: 0px 0px 0px 50px;
-    }
+  #topname {
+    margin: 0px 0px 0px 50px;
+  }
 
-    #self {
-      height: 115px;
-      width: 214.87px;
-    }
+  #self {
+    height: 115px;
+    width: 214.87px;
+  }
 
-    #navbardiv {
-      margin: 0px 100px
-    }
-
+  #navbardiv {
+    margin: 0px 100px;
+  }
 }
 
-@media  (max-width: 768px) { 
+@media (max-width: 768px) {
   .content {
     width: auto;
     margin: 20px 10px;
     padding: 20px 30px;
   }
-  
+
   #navbardiv {
     float: left;
     margin: 0px 0px 0px 380px;
@@ -154,19 +152,22 @@ footer {
   #topname {
     margin: 0px 0px 0px 10px;
   }
-
 }
 
+@media (max-width: 640px) {
+  #navbardiv {
+    margin: 2px 0px 0px 0px;
+    width: 640px;
+    background-color: #ffffff;
+  }
 
-
-@media  (max-width: 640px) {
-
-  #navbardiv{
-    margin: 5px 0px 0px 233px;
+  #navbar {
+    margin: 0px 215px 0px 0px;
   }
 
   #topname {
     width: 640px;
+    margin: 0 0 0 0;
   }
 
   .content {
@@ -176,9 +177,8 @@ footer {
   }
 
   #self {
-
     float: none;
     height: 200px;
-  width: 369.87px;
+    width: 369.87px;
   }
 }

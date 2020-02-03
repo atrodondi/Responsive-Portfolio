@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <title>Portfolio</title>
-    <!--<link rel="stylesheet" type="text/css" href="assets\css\reset.css"> uncomment if you can find time to fix with clear sheet added-->
     <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
     <link
       rel="stylesheet"
@@ -14,16 +13,16 @@
   <body>
     <div id="main">
       <header class="header">
-        <!--going to try using a header as a container instead?-->
         <div id="container1">
           <div id="topname"><p id="ar">Alex Rodondi</p></div>
-          <div id="navbardiv">
-            <ul id="navbar">
-              <!-- W3 schools help me with this part-->
-              <li><a href="contact.html">Contact</a></li>
-              <li><a class="active" href="portfolio.html">Portfolio |</a></li>
-              <li><a href="index.html">About |</a></li>
-            </ul>
+          <div id="navbox">
+            <div id="navbardiv">
+              <ul id="navbar">
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" href="portfolio.html">Portfolio |</a></li>
+                <li><a href="index.html">About |</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </header>
@@ -65,6 +64,7 @@
 
         <div class="project">
           <img
+            id="slug"
             class="projpic"
             src="assets\images\proj5.jpg"
             alt="slug on mush"
@@ -72,15 +72,10 @@
           <div id="proj5"><a href="project5.html">Project 5</a></div>
         </div>
         <div class="clearfix"></div>
-        <!--allow the container of all the projects to not collapse once they all get floated
-                                  Add a div right before teh closing div tag for your container, and use the "clear: both" arrtribute for that last div-->
       </div>
-
-     
     </div>
     <footer>
       <p>Copyright &#9400;</p>
-      <!-- those characters make the copyright /  need to get this position fixed-->
     </footer>
   </body>
 </html>
