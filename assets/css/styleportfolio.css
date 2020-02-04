@@ -14,10 +14,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#proj4 {
-  width: 197px;
-}
-
 .project {
   width: 320px;
   height: 300px;
@@ -54,11 +50,32 @@ footer {
   position: relative;
 }
 
-@media (max-width: 640px) {
+@media screen and (max-width: 980px) {
   #proj1,
   #proj2,
-  #proj3 {
-    width: 502px;
+  #proj3,
+  #proj4,
+  #proj5 {
+    width: 222px;
+  }
+
+  .projpic,
+  .project {
+    max-width: 250px;
+  }
+
+  .content {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #proj1,
+  #proj2,
+  #proj3,
+  #proj4,
+  #proj5 {
+    width: 222px;
   }
 
   .project {
@@ -68,12 +85,5 @@ footer {
   .projpic {
     width: 100%;
     max-width: 530px;
-  }
-
-  #proj4,
-  #proj5,
-  #jax,
-  #slug {
-    display: none;
   }
 }
